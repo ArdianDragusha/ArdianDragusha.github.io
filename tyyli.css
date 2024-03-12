@@ -1,0 +1,290 @@
+header {
+    text-align: center;
+color: #7b3911 ;
+background-color: #f6f6e9;
+font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;  
+    margin-top: 10px;
+
+      
+}
+
+.menuh {text-align: center;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;  
+  margin-top: 10px;}
+
+h2 {
+    text-align: center;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+body {
+    color: #7b3911;
+    background-color: #eaead2;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 0%;
+  margin-bottom: 0cm ;
+
+    
+}
+p {
+  font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.para2 {font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer {text-align: center;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px;
+}
+
+h2 {font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;}
+
+
+
+
+/*Mobiili*/
+
+@media only screen and (max-width:430px)
+{
+
+
+  .flex_header {display:flex; flex-direction: column; text-align: center;
+  }
+  .flex_inside {flex:1}
+  
+  .logo {
+    max-width: 150px; /* Adjust width as needed */
+    border: #7b3911 2px double;
+ 
+  }
+  .flex_item p {padding: 10px;
+    border-bottom: #7b3911 2px double;
+  text-align: center;}
+
+ 
+    
+nav li {display:inline-block;
+margin: 0px 5px;
+border: 2px double #7b3911;
+padding:2px;
+width:6em;
+
+background-color: #f6f6e9;
+margin-right: 40px;
+
+} 
+a {color: #7b3911;}
+.flex_item {text-align: center;}
+.flex_item img {
+ text-align: center; 
+}
+
+#ravintola {width: 250px;}
+
+.ruoka2 {width: 250px;height: 200px; border: #7b3911 double 2px;}
+.ruoka1 {width: 300px; height: 230px; border: #7b3911 2px double; }
+
+.flex_container2 {display: flex;flex-direction: column; text-align: center;}
+.flex_container3 {display: flex;flex-direction: column; text-align: center;}
+
+.flex_container6 {display: flex; flex-direction: column ; margin-left: 10px; margin-right: 10px; border-top: #7b3911 double 2px;}
+.flex_item6 {flex: 1; text-align: center;} 
+
+.kartta {width: 200px; border: #7b3911 2px double; }
+.ulkona {width: 300px;}
+
+
+
+.flex_container7 {display: flex;flex-direction: column ;border-bottom: #7b3911 double 2px; border-top: #7b3911 double 2px; margin-top: 10px;}
+.flex_item7 {flex: 1; text-align: center;}
+
+
+
+}
+
+
+/*Keskikokoinen*/
+
+@media only screen and (min-width:431px){
+
+.flex_header {display: flex; flex-direction: column; 
+  text-align: center; font-weight: 400;}
+.flex_inside {flex:1}
+
+
+
+.flex_container {display:flex; 
+;}
+.flex_item {flex:1; text-align: center;
+}
+.flex_item p {padding: 10px;
+border-left: #7b3911 2px double;
+float: center;
+margin-top: 30px;
+margin-left: 30px}
+
+nav li {display:inline-block;
+  margin: 0px 5px;
+  border: 2px double #7b3911;
+  padding:2px;
+  width:6em;
+  
+  background-color: #f6f6e9;
+  margin-right: 40px;
+  
+  } 
+  a {color: #7b3911;}
+  
+  .flex_item {text-align: center;}
+ 
+
+
+.logo {
+  display: inline-block;
+  width: 130px; 
+  height: auto;
+  vertical-align: text-bottom   ;
+  border: #7b3911 2px double;
+ 
+  }
+#ravintola {width: 400px; padding: 10px; border: #7b3911 2px double; margin-top: 130px;}
+
+
+.flex_container2 {display:flex; border-left: #7b3911 2px double;
+}
+.flex_item2 {flex: 1; text-align: center;}
+
+.flex_container3 {display: flex; flex-direction:row-reverse; border-right:#7b3911 2px double;
+}
+.flex_item3 {flex: 1; text-align: center;}
+
+.ruoka2 {width: 350px;height: 300px; border: #7b3911 double 2px; padding: 10px; margin-top: 30px;}
+.ruoka1 {width: 370px; height: 280px; border: #7b3911 double 2px; padding: 10px; margin-top: 30px;}
+
+:root {background-image: url(brick.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;}
+
+.flex_container6 {display: flex; border-left: #7b3911 double 2px; border-right: #7b3911 double 2px; margin-left: 10px; margin-right: 10px;}
+.flex_item6 {flex: 1; text-align: center;} 
+
+.kartta {width: 350px; border: #7b3911 double 2px;}
+.ulkona {width: 350px;}
+
+.flex_container7 {display: flex; border-left: #7b3911 double 2px; border-right: #7b3911 double 2px; margin-left: 10px; margin-right: 10px;}
+.flex_item7 {flex: 1; text-align: center;}
+}
+
+
+
+/*Isokokoiset*/
+
+@media only screen and (min-width:1024px)
+{
+  .flex_header {display: flex; flex-direction: column; 
+    text-align: center; font-weight: 400;
+  margin-left: 10px;
+margin-right: 10px;}
+  .flex_inside {flex:1}
+  
+  
+  
+  .flex_container {display:flex; 
+  ;}
+  .flex_item {flex:1; text-align: center;
+  }
+  .flex_item p {padding: 10px;
+  border-left: #7b3911 2px double;
+  float: center;
+  margin-top: 30px;
+  margin-left: 30px}
+  
+  nav li {display:inline-block;
+    margin: 0px 5px;
+    border: 2px double #7b3911;
+    padding:2px;
+    width:6em;
+    
+    background-color: #f6f6e9;
+    margin-right: 40px;
+    
+    } 
+    a {color: #7b3911;}
+    .flex_item {text-align: center;}
+    .flex_item img {
+     text-align: center;
+    }
+  
+  .flex_item img {float: center ; width: 500px;}
+  
+  .logo {
+    display: inline-block;
+    max-width: 130px; /* Adjust width as needed */
+    height: auto;
+    vertical-align: text-bottom   ; /* Aligns the image vertically */
+    border: #7b3911 2px double;
+   
+    }
+  .flex_item img {border-right: #7b3911 2px double ;
+    margin-top: 60px;
+  }
+  
+  
+  .flex_container2 {display:flex; border-left: #7b3911 2px double;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .flex_item2 {flex: 1; text-align: center;
+  font-size: large;}
+  
+  .flex_container3 {display: flex; flex-direction:row-reverse; border-right:#7b3911 2px double;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .flex_item3 {flex: 1; text-align: center;
+  font-size: large;}
+  
+  .ruoka2 {width: 350px;height: 300px; border: #7b3911 double 2px;}
+  .ruoka1 {width: 370px; height: 280px; border: #7b3911 double 2px;}
+  
+  :root {background-image: url(brick.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+
+  }
+  
+
