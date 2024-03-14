@@ -112,7 +112,7 @@ a {color: #7b3911;}
  text-align: center; 
 }
 
-#ravintola {width: 250px;}
+#ravintola {width: 250px; border: #7b3911 double 2px;}
 
 .ruoka2 {width: 250px;height: 200px; border: #7b3911 double 2px;}
 .ruoka1 {width: 300px; height: 230px; border: #7b3911 2px double; }
